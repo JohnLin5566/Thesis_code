@@ -1,0 +1,315 @@
+reg_test_log
+
+rtr = reg test result
+----------------------------------------------------------------
+
+20150616:
+1.
+random_p = randomu(seed, 6)*0.1   ;random_percentage
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.6 + 0.4*c
+d_length = 100                          ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 120,1500,4300,9200,4500,500  ]
+file_name = "rtr_20150616_1.dat"
+
+2.
+random_p = randomu(seed, 6)*0.1   ;random_percentage
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.6 + 0.4*c
+d_length = 100                          ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 30,90,650,2600,1600,100  ]
+file_name = "rtr_20150616_2.dat"
+
+3.
+random_p = randomu(seed, 6)*0.1   ;random_percentage
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.6 + 0.4*c
+d_length = 100                          ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 10,50,160,660,420,40  ]
+file_name = "rtr_20150616_3.dat"
+
+4.
+random_p = randomu(seed, 6)*0.1   ;random_percentage
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.6 + 0.4*c
+d_length = 100                          ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 300,1400,4000,7000,4800,550  ]
+file_name = "rtr_20150616_4.dat"
+
+
+5.
+random_p = randomu(seed, 6)*0.1   ;random_percentage
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.6 + 0.4*c
+d_length = 100                          ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 4,16,170,600,500,50  ]
+file_name = "rtr_20150616_5.dat"
+
+
+20150604:
+
+1.
+random_p = 0.2 + randomu(seed, 6)*0.1   ;random_percentage
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.6 + 0.4*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 120,1500,4300,9200,4500,500  ]
+file_name = "rtr_20150604_1.dat"
+
+2.
+random_p = 0.2 + randomu(seed, 6)*0.1   ;random_percentage
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.6 + 0.4*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 30,90,650,2600,1600,100  ]
+file_name = "rtr_20150604_2.dat"
+
+3.
+random_p = 0.2 + randomu(seed, 6)*0.1   ;random_percentage
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.6 + 0.4*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 10,50,160,660,420,40  ]
+file_name = "rtr_20150604_3.dat"
+
+4.
+random_p = 0.2 + randomu(seed, 6)*0.1   ;random_percentage
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.6 + 0.4*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 300,1400,4000,7000,4800,550  ]
+file_name = "rtr_20150604_4.dat"
+
+5.
+random_p = 0.2 + randomu(seed, 6)*0.1   ;random_percentage
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.6 + 0.4*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 4,16,170,600,500,50  ]
+file_name = "rtr_20150604_5.dat"
+
+
+20150602:
+1.
+random_p = 0.1 + randomu(seed, 6)*0.1   ;random_percentage
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.6 + 0.4*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 120,1500,4300,9200,4500,500  ]
+file_name = "rtr_20150602_1.dat"
+
+2.
+random_p = 0.1 + randomu(seed, 6)*0.1   ;random_percentage
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.6 + 0.4*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 30,90,650,2600,1600,10  ]
+file_name = "rtr_20150602_2.dat"
+
+3.
+random_p = 0.1 + randomu(seed, 6)*0.1   ;random_percentage
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.6 + 0.4*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 10,50,160,660,420,40  ]
+file_name = "rtr_20150602_3.dat"
+
+4.
+random_p = 0.1 + randomu(seed, 6)*0.1   ;random_percentage
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.6 + 0.4*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 300,1400,4000,7000,4800,550  ]
+file_name = "rtr_20150602_4.dat"
+
+5.
+random_p = 0.1 + randomu(seed, 6)*0.1   ;random_percentage
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.6 + 0.4*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 4,16,170,600,500,50  ]
+file_name = "rtr_20150602_5.dat"
+
+
+20150601:
+
+1.
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 6                            ;reg_tweak = 0.7 + 0.1*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 120,1500,4300,9200,4500,500  ]
+file_name = "rtr_20150601_1.dat"
+
+2.
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 6                            ;reg_tweak = 0.7 + 0.1*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 30,90,650,2600,1600,100  ]
+file_name = "rtr_20150601_2.dat"
+
+3.
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 6                            ;reg_tweak = 0.7 + 0.1*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 10,50,160,660,420,40  ]
+file_name = "rtr_20150601_3.dat"
+
+4.
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 6                            ;reg_tweak = 0.7 + 0.1*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 300,1400,4000,7000,4800,550  ]
+file_name = "rtr_20150601_4.dat"
+
+5.
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 6                            ;reg_tweak = 0.7 + 0.1*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 4,16,170,600,500,50  ]
+file_name = "rtr_20150601_5.dat"
+
+
+20150531:
+1.
+a_length = 1                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 1                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 10                           ;reg_tweak = 1.2 + 0.2*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 200, 800, 2000, 2000, 800, 200 ]
+file_name = "rtr_20150531_1.dat"
+
+
+20150530:
+
+1.
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 10                           ;reg_twak = 0.5 + 0.1*c
+d_length = 5                            ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 1000, 400, 50, 50, 400, 1000 ]
+file_name = "rtr_20150530_1.dat"
+
+2.
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 10                           ;reg_twak = 0.5 + 0.1*c
+d_length = 5                            ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 50, 400, 1000, 1000, 400, 50 ]
+file_name = "rtr_20150530_2.dat"
+
+3.
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 10                           ;reg_twak = 0.5 + 0.1*c
+d_length = 5                            ;random noise times
+pos = 1                                 ;postive solution
+data_original = [ 50, 400, 1000, 1000, 400, 50 ]
+file_name = "rtr_20150530_3.dat"
+
+4.
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 10                           ;reg_twak = 0.5 + 0.1*c
+d_length = 5                            ;random noise times
+pos = 1                                 ;postive solution
+data_original = [ 1000, 400, 50, 50, 400, 1000 ]
+file_name = "rtr_20150530_4.dat"
+
+5.
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.8 + 0.2*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 200, 1600, 4000, 4000, 1600, 200 ]
+file_name = "rtr_20150530_5.dat"
+
+6.
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.8 + 0.2*c
+d_length = 10                           ;random noise times
+pos = 1                                 ;postive solution
+data_original = [ 200, 1600, 4000, 4000, 1600, 200 ]
+file_name = "rtr_20150530_6.dat"
+
+7.
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.8 + 0.2*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 1600, 4000, 4000, 1600, 200, 200 ]
+file_name = "rtr_20150530_7.dat"
+
+8.
+a_length = 3                            ;order = 0, 1, 2, ( a_length = 3 )
+b_length = 3                            ;guess = 0, 1, 2, ( b_length = 3 )
+c_length = 3                            ;reg_tweak = 0.8 + 0.2*c
+d_length = 10                           ;random noise times
+pos = 0                                 ;postive solution
+data_original = [ 200, 200, 1600, 4000, 4000, 1600 ]
+file_name = "rtr_20150530_8.dat"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
